@@ -4,6 +4,7 @@ body{
 	font-family: 'Indie Flower', cursive;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 0px;
 }
 .container{
  	padding: 0px;
@@ -11,7 +12,7 @@ body{
 
 }
 .row{
-	padding: 0px;
+
 }
 .pink{
 	background-color: #089CD5;
