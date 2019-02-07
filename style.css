@@ -88,7 +88,8 @@ footer p{
 }
 
 p.vers{
-	background-color: rgba(4, 57, 77, 0.5);
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 5px 10px 15px 20px;
 	text-transform: none;
 	font-family: sans-serif;
 	white-space: pre-line;
