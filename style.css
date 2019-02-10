@@ -13,6 +13,7 @@ body{
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     margin: 0px;
+    align-items: center;	
 }
 @media only screen and (max-width: 600px){
     .main-nav {
@@ -21,6 +22,9 @@ body{
     }
 
 } 
+.mainlogo{
+	padding: 10px;
+}
 .main-nav > li {
 	list-style-type: none;
 	padding: 10px;
@@ -56,7 +60,6 @@ body{
 	background-image: url("background.jpg");
 	background-position: center;
 	background-size: cover;
-
 }
 .row{
 
@@ -129,9 +132,9 @@ strong{
   	right: 20px;
 }
 
-footer p{
+footer{
 	background-color: #606060;
-	color: white;
+	
 	margin: 0px;
 
 }
@@ -142,4 +145,13 @@ p.vers{
 	text-transform: none;
 	font-family: sans-serif;
 	white-space: pre-line;
+}
+
+/*Footer*/
+footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(52, 73, 94, 1);
+	color: white;
+	padding: 20px;
 }
