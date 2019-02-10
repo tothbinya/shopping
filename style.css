@@ -1,14 +1,61 @@
 body{
-	background-color: #089CD5;
-	color: #FFFFFF;
-	font-family: 'Indie Flower', cursive;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 0px;
+	margin: 0px;
+
+	
 }
+
+/*Nav*/
+.main-nav{
+	display: flex;
+	background-color: rgba(40, 116, 166, 0.5); 
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    margin: 0px;
+}
+@media only screen and (max-width: 600px){
+    .main-nav {
+        font-size: 0.7em;
+        padding: 0;
+    }
+
+} 
+.main-nav > li {
+	list-style-type: none;
+	padding: 10px;
+}
+.main-nav > li > a{
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	text-transform: uppercase;
+}
+.main-nav > li > a:hover{
+	color: yellow;
+	text-shadow:rgba(0,0,0,0.8) 2px 2px 5px;
+}
+.push{
+	margin-left: auto;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.cover{
+	 
+
+}
+
 .container{
- 	padding: 0px;
- 	display: flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url("background.jpg");
+	background-position: center;
+	background-size: cover;
 
 }
 .row{
@@ -27,6 +74,7 @@ ol{
 	display: inline-block;
 }
 h1{
+	color: white;
 	text-shadow: 2px 3px 5px black;
 }
 ul.lista li{ 
@@ -40,6 +88,7 @@ ul.lista li{
 ul.lista li:hover{
 	color: black;
 	background-color: #62D4FF;
+
 }
 
 strong{
